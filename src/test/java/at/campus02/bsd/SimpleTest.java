@@ -28,11 +28,16 @@ public class SimpleTest {
     public void divi2(){Assertions.assertEquals(12/3,ca.divide(12,3));}
 
     @Test
-    public void faculty(){Assertions.assertEquals(0,ca.faculty(-5));}
+    public void faculty(){Assertions.assertEquals(120,ca.faculty(5));}
 
     @Test
     public void faculty2(){Assertions.assertEquals(720,ca.faculty(6));}
 
     @Test
     public void faculty3(){Assertions.assertEquals(40320,ca.faculty(8));}
+
+    @Test
+    void exception(){
+        Assertions.assertThrows(ArithmeticException.class,() -> ca.divide(2,0));
+    }
 }
