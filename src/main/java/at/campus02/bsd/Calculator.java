@@ -23,4 +23,11 @@ public class Calculator {
         return result;
 
     }
+    public long faculty(long number1){
+        if (number1>1){
+           number1*= faculty(number1-1);
+       }
+
+        return 0;
+    }
 }

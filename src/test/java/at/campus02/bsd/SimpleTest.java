@@ -27,4 +27,12 @@ public class SimpleTest {
     @Test
     public void divi2(){Assertions.assertEquals(12/3,ca.divide(12,3));}
 
+    @Test
+    public void faculty(){Assertions.assertEquals(0,ca.faculty(-5));}
+
+    @Test
+    public void faculty2(){Assertions.assertEquals(720,ca.faculty(6));}
+
+    @Test
+    public void faculty3(){Assertions.assertEquals(40320,ca.faculty(8));}
 }
