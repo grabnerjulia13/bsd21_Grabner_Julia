@@ -11,30 +11,30 @@ public class SimpleTest {
 
     double result;
     @Test
-    public void add1(){Assertions.assertEquals(5,result = 3+2);}
+    public void add1(){Assertions.assertEquals(5,result = 4+1);}
     @Test
-    public void add2(){Assertions.assertEquals(3+2,ca.add(3,2));}
+    public void add2(){Assertions.assertEquals(4+1,ca.add(4,1));}
     @Test
-    public void minus(){Assertions.assertEquals(6,result = 8-2);}
+    public void minus(){Assertions.assertEquals(7,result = 9-2);}
     @Test
-    public void minus2(){Assertions.assertEquals(8-2,ca.minus(8,2));}
+    public void minus2(){Assertions.assertEquals(9-2,ca.minus(9,2));}
     @Test
-    public void multi(){Assertions.assertEquals(20,result = 5*4);}
+    public void multi(){Assertions.assertEquals(25,result = 5*5);}
     @Test
-    public void multi2(){Assertions.assertEquals(5*4,ca.multiply(5,4));}
+    public void multi2(){Assertions.assertEquals(5*5,ca.multiply(5,5));}
     @Test
-    public void divi(){Assertions.assertEquals(4,result = 12/3);}
+    public void divi(){Assertions.assertEquals(5,result = 15/3);}
     @Test
-    public void divi2(){Assertions.assertEquals(12/3,ca.divide(12,3));}
+    public void divi2(){Assertions.assertEquals(15/3,ca.divide(15,3));}
 
     @Test
-    public void faculty(){Assertions.assertEquals(120,ca.faculty(5));}
+    public void faculty(){Assertions.assertEquals(720,ca.faculty(6));}
 
     @Test
-    public void faculty2(){Assertions.assertEquals(720,ca.faculty(6));}
+    public void faculty2(){Assertions.assertEquals(120,ca.faculty(5));}
 
     @Test
-    public void faculty3(){Assertions.assertEquals(40320,ca.faculty(8));}
+    public void faculty3(){Assertions.assertEquals(5040,ca.faculty(7));}
 
     @Test
     void exception(){
